@@ -3,7 +3,8 @@ const move={
     duration: 30, 
     stars : [ "Puff","Jackie","Living Sneezes"]
 }
-for (let i = 0; i < move.stars.length; i++){
-console.log(move.title+" last for "+move.duration+ " minutes " +move.stars[i])
+{
+console.log(move.title+" last for "+move.duration+
+ " minutes " +move.stars)
 
 }
